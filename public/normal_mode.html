@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage" style="height: 100%;">
+
+<head>
+</head>
+
+<body id="body">
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+
+        #body {
+            background-color: rgb(45, 59, 65);
+            height: 100%;
+        }
+
+        .parent {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .block {
+            margin: 10px auto;
+            width: 200px;
+            background: black;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .second_flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+    </style>
+    <div class="second_flex">
+        <canvas id="board" width="300" height="300" style="border:2px solid #aa6a03; width: 300px; height: 300px; margin: 0px auto;"></canvas>
+    </div>
+    <script src="chess_piece.js"></script>
+    <script src="normal_chess.js"></script>
+</body>

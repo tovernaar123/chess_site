@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage" style="height: 100%;">
+
+<head></head>
+
+<body id="body">
+    <style>
+        #body {
+            background-color: rgb(45, 59, 65);
+            height: 100%;
+        }
+
+        .parent {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .block {
+            margin: 10px auto;
+            width: 200px;
+            background: black;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .second_flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+    </style>
+    <div class="second_flex ">
+        <div class="parent">
+            <div class="block" onclick="document.location.href = './normal_mode.html'"> Normal mode </div>
+            <div class="block"> Pirates </div>
+        </div>
+    </div>
+
+</body>

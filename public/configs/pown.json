@@ -1,0 +1,5 @@
+{
+    "name": "p",
+    "script": "./pown.js",
+    "sprite": "white_pown.png"
+}
